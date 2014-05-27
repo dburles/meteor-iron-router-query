@@ -35,6 +35,11 @@ Router.query = (function(router) {
       
       router.go(current().route.name, currentParams(), { query: query });
     },
+
+    isSet: function(name, value) {
+      name = resolveName(name);
+      return _.indexOf(currentParams()[name] || [], value) !== -1;
+    },
     
     add: function(name, value) {
       var values = get(name);
