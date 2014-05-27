@@ -1,0 +1,11 @@
+{
+  "name": "iron-router-query",
+  "description": "Iron Router addon that allows control of query string arrays",
+  "homepage": "https://github.com/dburles/meteor-iron-router-array",
+  "author": "David Burles (https://github.com/dburles), Tom Coleman (https://github.com/tmeasday)",
+  "version": "0.1.0",
+  "git": "https://github.com/dburles/meteor-iron-router-array.git",
+  "packages": {
+    "iron-router": {}
+  }
+}
